@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3e0458-ce00-4624-9717-60d355a8c2a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MVC/tft/mvc/project/CalculatorController$CalculateListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MVC/tft/mvc/project/CalculatorController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MVC/tft/mvc/project/CalculatorModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MVC/tft/mvc/project/CalculatorView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MVC/tft/mvc/project/MVC.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVC.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tft/mvc/project/CalculatorController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tft/mvc/project/CalculatorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tft/mvc/project/CalculatorView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tft/mvc/project/MVC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,8 +99,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
-    <option name="y" value="101" />
+    <option name="x" value="63" />
+    <option name="y" value="107" />
     <option name="width" value="1205" />
     <option name="height" value="679" />
   </component>
@@ -468,10 +454,25 @@
       <option name="presentableId" value="Default" />
       <updated>1468870870618</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1468877212433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468877212433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .xml files">
+      <created>1468877318297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1468877318297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="101" width="1205" height="679" extended-state="0" />
+    <frame x="63" y="107" width="1205" height="679" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -502,6 +503,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Add .xml files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .xml files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
