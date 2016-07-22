@@ -16,18 +16,45 @@ public class CalculatorView extends JFrame {
     private JButton calculateButton = new JButton("Add");
     private JTextField calcSolution = new JTextField(10);
 
+    private JButton calculateButtonTwo = new JButton("-");
+    private JButton calculateButtonThree = new JButton("x");
+    private JButton calculateButtonFour = new JButton("/");
+
+
+
+
+
+
+
+
 
 
 
     CalculatorView() {
         JPanel calcPanel = new JPanel();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setSize(600, 200);
+
+        //Additon
 
         calcPanel.add(firstNumber);
         calcPanel.add(additionLabel);
         calcPanel.add(secondNumber);
         calcPanel.add(calculateButton);
         calcPanel.add(calcSolution);
+
+        //Subtraction
+
+        calcPanel.add(calculateButtonTwo);
+
+        //Multiplication
+
+        calcPanel.add(calculateButtonThree);
+        calcPanel.add(calculateButtonFour);
+
+
+
+
 
         this.add(calcPanel);
 
@@ -36,6 +63,8 @@ public class CalculatorView extends JFrame {
 
 
     }
+
+    //Additon
 
 
     public int getFirstNumber() {
@@ -63,6 +92,17 @@ public class CalculatorView extends JFrame {
     void displayErrorMessage(String errorMessage){
         JOptionPane.showMessageDialog(this, errorMessage);
 
+
+    }
+
+    //Subtraction
+
+    void addCalculationListenerTwo(ActionListener listenrForCalcButton) {
+        calculateButtonTwo.addActionListener(listenrForCalcButton);
+    }
+
+    void displayErrorMessageTwo(String errorMessage) {
+        JOptionPane.showMessageDialog(this, errorMessage);
 
     }
 
