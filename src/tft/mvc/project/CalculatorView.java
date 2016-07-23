@@ -13,22 +13,13 @@ public class CalculatorView extends JFrame {
     private JTextField firstNumber = new JTextField(10);
     private JLabel additionLabel = new JLabel("+");
     private JTextField secondNumber = new JTextField(10);
-    private JButton calculateButton = new JButton("Add");
+    private JButton calculateButton = new JButton("+");
+    private JButton calculatesubtractButton = new JButton("-");
     private JTextField calcSolution = new JTextField(10);
 
     private JButton calculateButtonTwo = new JButton("-");
     private JButton calculateButtonThree = new JButton("x");
     private JButton calculateButtonFour = new JButton("/");
-
-
-
-
-
-
-
-
-
-
 
     CalculatorView() {
         JPanel calcPanel = new JPanel();
@@ -44,12 +35,10 @@ public class CalculatorView extends JFrame {
         calcPanel.add(calcSolution);
 
         //Subtraction
-
         calcPanel.add(calculateButtonTwo);
-
         //Multiplication
-
         calcPanel.add(calculateButtonThree);
+        //Division
         calcPanel.add(calculateButtonFour);
 
 
